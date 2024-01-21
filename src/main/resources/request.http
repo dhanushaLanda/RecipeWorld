@@ -1,0 +1,14 @@
+POST http://localhost:8080/add/recipe
+Content-Type: application/json
+
+{
+  "name": "Pulihora",
+  "imageLink": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.foodrhythms.com%2Fimages%2Frecipes%2Foriginal%2FPulihora_3.jpg&tbnid=sJV6zk6zgHAFmM&vet=12ahUKEwiYgPvY5-2DAxVEhmMGHVrRDXgQMygWegUIARCxAQ..i&imgrefurl=https%3A%2F%2Ffoodrhythms.com%2Framadevisaggam%2Frecipes%2Fpulihora-with-chintapandu-imli-pulusu-spicy-and-tangy-tamarind-rice%2F78&docid=VnEqRXGvEnke4M&w=1980&h=1113&q=pulihora&ved=2ahUKEwiYgPvY5-2DAxVEhmMGHVrRDXgQMygWegUIARCxAQ"
+}
+
+###
+GET http://localhost:8080/recipes
+Accept: application/json
+
+###
+
